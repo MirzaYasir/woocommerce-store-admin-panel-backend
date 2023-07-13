@@ -1,0 +1,7 @@
+[10-Jun-2023 11:45:56 UTC] PHP Warning:  Undefined variable $attch in /Applications/XAMPP/xamppfiles/htdocs/projects/thailand/wordpress/wp-content/themes/mytheme/page-detail.php on line 169
+[10-Jun-2023 11:45:56 UTC] PHP Warning:  Attempt to read property "url" on null in /Applications/XAMPP/xamppfiles/htdocs/projects/thailand/wordpress/wp-content/themes/mytheme/page-detail.php on line 169
+[10-Jun-2023 11:45:56 UTC] PHP Warning:  Undefined variable $attch in /Applications/XAMPP/xamppfiles/htdocs/projects/thailand/wordpress/wp-content/themes/mytheme/page-detail.php on line 169
+[10-Jun-2023 11:45:56 UTC] PHP Warning:  Attempt to read property "url" on null in /Applications/XAMPP/xamppfiles/htdocs/projects/thailand/wordpress/wp-content/themes/mytheme/page-detail.php on line 169
+[10-Jun-2023 11:45:56 UTC] PHP Warning:  Undefined variable $attch in /Applications/XAMPP/xamppfiles/htdocs/projects/thailand/wordpress/wp-content/themes/mytheme/page-detail.php on line 170
+[10-Jun-2023 11:45:56 UTC] PHP Warning:  Attempt to read property "url" on null in /Applications/XAMPP/xamppfiles/htdocs/projects/thailand/wordpress/wp-content/themes/mytheme/page-detail.php on line 170
+[13-Jun-2023 03:06:25 UTC] Cron reschedule event error for hook: wpforms_email_summaries_cron, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"wpforms_email_summaries_weekly","args":[],"interval":604800}

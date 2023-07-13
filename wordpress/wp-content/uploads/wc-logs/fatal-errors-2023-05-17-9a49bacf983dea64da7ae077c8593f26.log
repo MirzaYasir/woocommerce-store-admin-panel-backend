@@ -1,0 +1,24 @@
+2023-05-17T11:06:50+00:00 CRITICAL Uncaught TypeError: ftp_fput(): Argument #1 ($ftp) must be of type FTP\Connection, null given in /Applications/XAMPP/xamppfiles/htdocs/projects/thailand/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:212
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/projects/thailand/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(212): ftp_fput(NULL, '/Applications/X...', Resource id #2403, 2)
+#1 /Applications/XAMPP/xamppfiles/htdocs/projects/thailand/wordpress/wp-content/plugins/astra-sites/inc/classes/class-astra-sites-importer-log.php(73): WP_Filesystem_FTPext->put_contents('/Applications/X...', '')
+#2 /Applications/XAMPP/xamppfiles/htdocs/projects/thailand/wordpress/wp-includes/class-wp-hook.php(308): Astra_Sites_Importer_Log->has_file_read_write('')
+#3 /Applications/XAMPP/xamppfiles/htdocs/projects/thailand/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/projects/thailand/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/projects/thailand/wordpress/wp-admin/admin.php(175): do_action('admin_init')
+#6 /Applications/XAMPP/xamppfiles/htdocs/projects/thailand/wordpress/wp-admin/index.php(10): require_once('/Applications/X...')
+#7 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/projects/thailand/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 212
+
+2023-05-17T11:09:24+00:00 CRITICAL Uncaught TypeError: ftp_fput(): Argument #1 ($ftp) must be of type FTP\Connection, null given in /Applications/XAMPP/xamppfiles/htdocs/projects/thailand/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php:212
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/projects/thailand/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php(212): ftp_fput(NULL, '/Applications/X...', Resource id #2403, 2)
+#1 /Applications/XAMPP/xamppfiles/htdocs/projects/thailand/wordpress/wp-content/plugins/astra-sites/inc/classes/class-astra-sites-importer-log.php(73): WP_Filesystem_FTPext->put_contents('/Applications/X...', '')
+#2 /Applications/XAMPP/xamppfiles/htdocs/projects/thailand/wordpress/wp-includes/class-wp-hook.php(308): Astra_Sites_Importer_Log->has_file_read_write('')
+#3 /Applications/XAMPP/xamppfiles/htdocs/projects/thailand/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/projects/thailand/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/projects/thailand/wordpress/wp-admin/admin.php(175): do_action('admin_init')
+#6 /Applications/XAMPP/xamppfiles/htdocs/projects/thailand/wordpress/wp-admin/index.php(10): require_once('/Applications/X...')
+#7 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/projects/thailand/wordpress/wp-admin/includes/class-wp-filesystem-ftpext.php on line 212
+

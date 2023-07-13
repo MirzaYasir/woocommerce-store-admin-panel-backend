@@ -1,0 +1,26 @@
+2023-06-08T08:12:31+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string + string in /Applications/XAMPP/xamppfiles/htdocs/projects/thailand/wordpress/wp-content/themes/mytheme/index.php:48
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/projects/thailand/wordpress/wp-includes/template-loader.php(106): include()
+#1 /Applications/XAMPP/xamppfiles/htdocs/projects/thailand/wordpress/wp-blog-header.php(19): require_once('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/projects/thailand/wordpress/index.php(17): require('/Applications/X...')
+#3 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/projects/thailand/wordpress/wp-content/themes/mytheme/index.php on line 48
+
+2023-06-08T15:21:19+00:00 CRITICAL Uncaught ValueError: Unknown format specifier ";" in /Applications/XAMPP/xamppfiles/htdocs/projects/thailand/wordpress/wp-content/themes/mytheme/index.php:66
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/projects/thailand/wordpress/wp-content/themes/mytheme/index.php(66): sprintf('<div class="col...', 'pkr', '36.99')
+#1 /Applications/XAMPP/xamppfiles/htdocs/projects/thailand/wordpress/wp-includes/template-loader.php(106): include('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/projects/thailand/wordpress/wp-blog-header.php(19): require_once('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/projects/thailand/wordpress/index.php(17): require('/Applications/X...')
+#4 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/projects/thailand/wordpress/wp-content/themes/mytheme/index.php on line 66
+
+2023-06-08T15:22:00+00:00 CRITICAL Uncaught ValueError: Unknown format specifier ";" in /Applications/XAMPP/xamppfiles/htdocs/projects/thailand/wordpress/wp-content/themes/mytheme/index.php:66
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/projects/thailand/wordpress/wp-content/themes/mytheme/index.php(66): sprintf('<div class="col...', 'pkr', '36.99')
+#1 /Applications/XAMPP/xamppfiles/htdocs/projects/thailand/wordpress/wp-includes/template-loader.php(106): include('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/projects/thailand/wordpress/wp-blog-header.php(19): require_once('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/projects/thailand/wordpress/index.php(17): require('/Applications/X...')
+#4 {main}
+  thrown in /Applications/XAMPP/xamppfiles/htdocs/projects/thailand/wordpress/wp-content/themes/mytheme/index.php on line 66
+
